@@ -1,0 +1,1178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE item-submission SYSTEM "item-submission.dtd">
+
+<!-- Configurable Submission configuration file -->
+
+<!-- This XML configuration file allows you to configure the ordering -->
+<!-- and number of the steps that occur in the Item Submission Process. -->
+<item-submission>
+
+    <!-- The process-map maps collection handles to a particular Item -->
+    <!-- Submission Process. This requires that a collection's name be -->
+    <!-- unique, even within a community. DSpace does however ensure that each -->
+    <!-- collection's handle is unique. Process-map provides the means to -->
+    <!-- associate a unique collection name with an Item Submission process. -->
+    <!-- The process-map also provides the special handle "default" (which is -->
+    <!-- never a collection), here mapped to "traditional". Any collection -->
+    <!-- which does not appear in this map will be associated with the mapping -->
+    <!-- for handle "default". -->
+    <submission-map>
+        <!-- Default submission process -->
+        <!-- <name-map collection-handle="default" submission-name="traditional"/> -->
+        <name-map collection-handle="default" submission-name="tesis"/>
+        <!-- <name-map collection-handle="default" submission-name="articulos_revistas"/> -->
+        <!-- <name-map collection-handle="default" submission-name="articulos_revistas_historicas"/> -->
+        <!-- <name-map collection-handle="default" submission-name="doctrabajo"/> -->
+        <!-- <name-map collection-handle="default" submission-name="eventos"/> -->
+        <!-- <name-map collection-handle="default" submission-name="libros"/> -->
+        <!-- <name-map collection-handle="default" submission-name="palc"/> -->
+        <!-- <name-map collection-handle="default" submission-name="cclinicos"/> -->
+        <!-- <name-map collection-handle="default" submission-name="documentos"/> -->
+        <!-- <name-map collection-handle="default" submission-name="documentos_institucionales"/> -->
+        <!-- <name-map collection-handle="default" submission-name="podcast"/> -->
+        <!-- <name-map collection-handle="default" submission-name="form_ASK"/> -->
+        <!-- <name-map collection-handle="default" submission-name="form_GAMMA"/> -->
+        <!-- <name-map collection-handle="default" submission-name="historicos"/> -->
+        <!-- <name-map collection-handle="default" submission-name="imagenes"/> -->
+        <!-- <name-map collection-handle="default" submission-name="libros_historicos"/> -->
+        <!-- <name-map collection-handle="default" submission-name="trabajos_academicos"/> -->
+        <!-- <name-map collection-handle="default" submission-name="rea"/> -->
+
+               <name-map collection-handle="10336/11684" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/12046" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/12051" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/12294" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/14016" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/3103" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/3104" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/3179" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/3180" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/3180" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/3182" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/3183" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/3186" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/683" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/683" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/19109" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/19205" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/19288" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/19420" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/19893" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/19894" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20123" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20124" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20206" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20247" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20271" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20272" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20412" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20417" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20418" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20419" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20420" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20421" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20422" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20423" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20424" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20425" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20426" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20427" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20485" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20535" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20537" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20607" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20738" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20946" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20947" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20982" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/21361" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/21365" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/21367" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/21368" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/21369" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/21371" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/21372" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/21374" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/21376" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/21377" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/21606" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/21853" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/21854" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/21855" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/21856" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/21857" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/21858" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/21859" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/21860" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/21861" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/21862" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/22072" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/24375" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/24376" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/24377" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/24378" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/24379" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/24380" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/24381" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/24382" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/24383" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/24384" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/25215" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/25286" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/25287" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/25288" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/25289" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/25290" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/25291" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/25292" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/25293" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/25294" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/25295" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/25299" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/25300" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/25301" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/25302" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/25303" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/25304" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/25306" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/25307" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/25308" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/25309" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/26522" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/26523" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/26524" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/26525" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/26526" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/26527" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/26528" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/26529" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/26530" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/26531" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/26533" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/26534" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/26535" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/26536" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/26537" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/26538" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/26539" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/26540" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/26541" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/26542" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/29024" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/29025" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/29026" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/29027" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/29028" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/29029" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/29030" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/29031" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/29032" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/29033" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/29034" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/29035" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/29036" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/29037" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/29038" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/29039" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/29040" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/29041" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/29042" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/29043" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30106" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30341" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30342" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30343" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30344" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30345" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30346" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30347" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30348" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30349" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30350" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30351" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30352" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30353" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30354" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30355" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30356" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30357" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30358" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30359" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30360" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30497" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30617" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/6344" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/6345" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/6346" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/6347" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/6348" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/6349" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/6350" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/6351" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/6352" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/6353" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/6354" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/15198" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/17854" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30975" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/20411" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/31091" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/31279" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/31661" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/31986" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/32873" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/33149" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/33238" submission-name="articulos_revistas"/>
+        <name-map collection-handle="10336/30869" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/30870" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/30871" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/30872" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/30873" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/30874" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/30875" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/30876" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/30877" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/30878" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/30879" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/30880" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/30881" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/30882" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/30883" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/30884" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/30885" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/30886" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/30887" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/30888" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31385" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31386" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31387" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31388" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31389" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31390" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31391" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31392" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31393" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31394" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31396" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31397" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31398" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31399" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31400" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31401" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31402" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31403" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31404" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31405" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31838" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31839" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31840" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31841" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31842" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31843" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31844" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31845" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31846" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31847" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31826" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31827" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31828" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31830" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31831" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31832" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31833" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31834" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31835" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/31836" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32297" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32298" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32299" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32300" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32301" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32302" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32303" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32304" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32305" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32306" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32307" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32308" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32309" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32310" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32311" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32312" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32313" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32314" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32315" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32316" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32606" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32607" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32608" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32609" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32610" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32612" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32613" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32614" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32615" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32616" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32617" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32621" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32622" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32623" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32624" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32626" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32627" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32628" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32629" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32630" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32677" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32679" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32682" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32683" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32684" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32685" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32687" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32691" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32692" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32693" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32695" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32696" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32697" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32698" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32699" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32700" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32701" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32702" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32703" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32704" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32709" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32710" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32711" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32712" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32713" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32714" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32715" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32718" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32719" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32720" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32721" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32722" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32723" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32724" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32725" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/32726" submission-name="articulos_revistas_historicas"/>
+        <name-map collection-handle="10336/18577" submission-name="doctrabajo"/>
+        <name-map collection-handle="10336/18578" submission-name="doctrabajo"/>
+        <name-map collection-handle="10336/18579" submission-name="doctrabajo"/>
+        <name-map collection-handle="10336/18580" submission-name="doctrabajo"/>
+        <name-map collection-handle="10336/18974" submission-name="doctrabajo"/>
+        <name-map collection-handle="10336/25325" submission-name="doctrabajo"/>
+        <name-map collection-handle="10336/3185" submission-name="doctrabajo"/>
+        <name-map collection-handle="10336/3185" submission-name="doctrabajo"/>
+        <name-map collection-handle="10336/12366" submission-name="eventos"/>
+        <name-map collection-handle="10336/19237" submission-name="eventos"/>
+        <name-map collection-handle="10336/19238" submission-name="eventos"/>
+        <name-map collection-handle="10336/18553" submission-name="eventos"/>
+        <name-map collection-handle="10336/2442" submission-name="eventos"/>
+        <name-map collection-handle="10336/28974" submission-name="libros"/>
+        <name-map collection-handle="10336/28971" submission-name="palc"/>
+        <name-map collection-handle="10336/12022" submission-name="cclinicos"/>
+        <name-map collection-handle="10336/10889" submission-name="doctrabajo"/>
+        <name-map collection-handle="10336/31341" submission-name="doctrabajo"/>
+        <name-map collection-handle="10336/31417" submission-name="doctrabajo"/>
+        <name-map collection-handle="10336/31664" submission-name="doctrabajo"/>
+        <name-map collection-handle="10336/199" submission-name="documentos"/>
+        <name-map collection-handle="10336/18542" submission-name="documentos_institucionales"/>
+        <name-map collection-handle="10336/18547" submission-name="documentos_institucionales"/>
+        <name-map collection-handle="10336/18548" submission-name="documentos_institucionales"/>
+        <name-map collection-handle="10336/18549" submission-name="documentos_institucionales"/>
+        <name-map collection-handle="10336/18550" submission-name="documentos_institucionales"/>
+        <name-map collection-handle="10336/18556" submission-name="documentos_institucionales"/>
+        <name-map collection-handle="10336/18623" submission-name="documentos_institucionales"/>
+        <name-map collection-handle="10336/18624" submission-name="documentos_institucionales"/>
+        <name-map collection-handle="10336/18965" submission-name="documentos_institucionales"/>
+        <name-map collection-handle="10336/28991" submission-name="documentos_institucionales"/>
+        <name-map collection-handle="10336/13183" submission-name="eventos"/>
+        <name-map collection-handle="10336/18478" submission-name="eventos"/>
+        <name-map collection-handle="10336/18478" submission-name="eventos"/>
+        <name-map collection-handle="10336/18480" submission-name="eventos"/>
+        <name-map collection-handle="10336/18481" submission-name="eventos"/>
+        <name-map collection-handle="10336/18493" submission-name="eventos"/>
+        <name-map collection-handle="10336/18516" submission-name="eventos"/>
+        <name-map collection-handle="10336/18559" submission-name="eventos"/>
+        <name-map collection-handle="10336/18560" submission-name="eventos"/>
+        <name-map collection-handle="10336/18566" submission-name="eventos"/>
+        <name-map collection-handle="10336/18567" submission-name="eventos"/>
+        <name-map collection-handle="10336/18646" submission-name="eventos"/>
+        <name-map collection-handle="10336/18773" submission-name="eventos"/>
+        <name-map collection-handle="10336/18925" submission-name="eventos"/>
+        <name-map collection-handle="10336/18939" submission-name="eventos"/>
+        <name-map collection-handle="10336/19080" submission-name="eventos"/>
+        <name-map collection-handle="10336/19301" submission-name="eventos"/>
+        <name-map collection-handle="10336/19309" submission-name="eventos"/>
+        <name-map collection-handle="10336/19310" submission-name="eventos"/>
+        <name-map collection-handle="10336/19311" submission-name="eventos"/>
+        <name-map collection-handle="10336/19419" submission-name="podcast"/>
+        <name-map collection-handle="10336/19592" submission-name="eventos"/>
+        <name-map collection-handle="10336/19601" submission-name="eventos"/>
+        <name-map collection-handle="10336/19757" submission-name="eventos"/>
+        <name-map collection-handle="10336/19950" submission-name="eventos"/>
+        <name-map collection-handle="10336/19951" submission-name="eventos"/>
+        <name-map collection-handle="10336/19980" submission-name="eventos"/>
+        <name-map collection-handle="10336/20494" submission-name="eventos"/>
+        <name-map collection-handle="10336/20846" submission-name="eventos"/>
+        <name-map collection-handle="10336/21108" submission-name="eventos"/>
+        <name-map collection-handle="10336/30656" submission-name="eventos"/>
+        <name-map collection-handle="10336/30682" submission-name="eventos"/>
+        <name-map collection-handle="10336/30685" submission-name="eventos"/>
+        <name-map collection-handle="10336/4433" submission-name="eventos"/>
+        <name-map collection-handle="10336/32443" submission-name="eventos"/>
+        <name-map collection-handle="10336/32444" submission-name="eventos"/>
+        <name-map collection-handle="10336/32451" submission-name="eventos"/>
+        <name-map collection-handle="10336/32457" submission-name="eventos"/>
+        <name-map collection-handle="10336/32460" submission-name="eventos"/>
+        <name-map collection-handle="10336/32462" submission-name="eventos"/>
+        <name-map collection-handle="10336/32458" submission-name="eventos"/>
+        <name-map collection-handle="10336/32910" submission-name="eventos"/>
+        <name-map collection-handle="10336/33078" submission-name="eventos"/>
+        <name-map collection-handle="10336/33416" submission-name="eventos"/>
+        <name-map collection-handle="10336/12994" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/12995" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/12996" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/12997" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13001" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13002" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13003" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13004" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13005" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13006" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13007" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13008" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13009" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13010" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13011" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13012" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13013" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13014" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13015" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13016" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13017" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13018" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13019" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13020" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13021" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13022" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13023" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13024" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13025" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13026" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13027" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13028" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13029" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13030" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13031" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13032" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13033" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13034" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13035" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13036" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13037" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13038" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13040" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13041" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13042" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13043" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13044" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13045" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13046" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13047" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13048" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13049" submission-name="form_ASK"/>
+        <name-map collection-handle="10336/13482" submission-name="form_GAMMA"/>
+        <name-map collection-handle="10336/25347" submission-name="form_GAMMA"/>
+        <name-map collection-handle="10336/2254" submission-name="historicos"/>
+        <name-map collection-handle="10336/3106" submission-name="historicos"/>
+        <name-map collection-handle="10336/19070" submission-name="imagenes"/>
+        <name-map collection-handle="10336/19071" submission-name="imagenes"/>
+        <name-map collection-handle="10336/3105" submission-name="libros_historicos"/>
+        <name-map collection-handle="10336/18532" submission-name="libros"/>
+        <name-map collection-handle="10336/165" submission-name="libros"/>
+        <name-map collection-handle="10336/3115" submission-name="libros"/>
+        <name-map collection-handle="10336/18564" submission-name="podcast"/>
+        <name-map collection-handle="10336/19242" submission-name="podcast"/>
+        <name-map collection-handle="10336/14390" submission-name="podcast"/>
+        <name-map collection-handle="10336/31413" submission-name="trabajos_academicos"/>
+        <name-map collection-handle="10336/25347" submission-name="trabajos_academicos"/>
+        <name-map collection-handle="10336/31676" submission-name="trabajos_academicos"/>
+        <name-map collection-handle="10336/32367" submission-name="trabajos_academicos"/>
+        <name-map collection-handle="10336/32897" submission-name="trabajos_academicos"/>
+        <name-map collection-handle="10336/32638" submission-name="rea"/>
+        <name-map collection-handle="10336/32639" submission-name="rea"/>
+        <name-map collection-handle="10336/32640" submission-name="rea"/>
+        <name-map collection-handle="10336/32641" submission-name="rea"/>
+        <name-map collection-handle="10336/32642" submission-name="rea"/>
+        <name-map collection-handle="10336/32643" submission-name="rea"/>
+        <name-map collection-handle="10336/32644" submission-name="rea"/>
+        <name-map collection-handle="10336/32645" submission-name="rea"/>
+
+        <!-- Sample Entities Collection configuration based on the demo Entities dataset available at:
+             https://github.com/DSpace-Labs/AIP-Files/releases/tag/demo-entities-data
+             This sets up the following Entity-based Collections in that dataset:
+                "Publication" Collections = "Publications" -> "Articles", "Books", "Publications 2", & "Theses"
+                "OrgUnit" Collection = "Related Objects" -> "OrgUnits"
+                "Person" Collections = "Related Objects" -> "People" & "People 2"
+                "Project" Collections = "Related Objects" -> "Projects" & "Projects 2"
+                "Journal" Collection = "Compound Journals" -> "Journals"
+                "Journal Volume" Collection = "Compound Journals" -> "Journal Volumes"
+                "Journal Issue" Collection = "Compound Journals" ->  "Journal Issues"
+             If you are using that demo dataset, you can simply uncomment the below configuration to enable Entity
+             submission into all of the above Collections.
+        -->
+        <!--
+        <name-map collection-handle="123456789/3" submission-name="Publication"/>
+        <name-map collection-handle="123456789/4" submission-name="Publication"/>
+        <name-map collection-handle="123456789/281" submission-name="Publication"/>
+        <name-map collection-handle="123456789/5" submission-name="Publication"/>
+        <name-map collection-handle="123456789/8" submission-name="OrgUnit"/>
+        <name-map collection-handle="123456789/6" submission-name="Person"/>
+        <name-map collection-handle="123456789/279" submission-name="Person"/>
+        <name-map collection-handle="123456789/7" submission-name="Project"/>
+        <name-map collection-handle="123456789/280" submission-name="Project"/>
+        <name-map collection-handle="123456789/28" submission-name="Journal"/>
+        <name-map collection-handle="123456789/29" submission-name="JournalVolume"/>
+        <name-map collection-handle="123456789/30" submission-name="JournalIssue"/>
+        -->
+    </submission-map>
+
+
+
+    <!-- The 'step-definitions' allows you to define steps which you may wish -->
+    <!-- to "share" amongst multiple submission-item definitions. In order to -->
+    <!-- share the same step definition, you can refer to it by its unique id -->
+    <!-- defined in this section. EVERY 'step' in this section MUST have a -->
+    <!-- unique identifier in the 'id' attribute! -->
+    <!-- -->
+    <!-- Each <step-definition> REQUIRES the following attributes (@) and properties: -->
+    <!-- @id - The unique identifier for this step -->
+    <!-- -->
+    <!-- <processing-class> - The class which will process all information for -->
+    <!-- this step. The class must implement -->
+    <!-- 'org.dspace.app.rest.submit.RestProcessingStep' -->
+    <!-- (or one of the org.dspace.rest.submit.step.* classes) -->
+    <!-- This property should reference the full path of the class -->
+    <!-- (e.g. org.dspace.app.rest.submit.step.MyCustomStep) -->
+    <!-- -->
+    <!-- The following properties are OPTIONAL for each <step-definition>: -->
+    <!-- <heading> - References the message key, from the -->
+    <!-- Messages.properties -->
+    <!-- -->
+    <step-definitions>
+        <!-- The "collection" step is a "special step" which is *REQUIRED* -->
+        <!-- In DSpace, all submitted items must be immediately assigned -->
+        <!-- to a collection. This step ensures that a collection is always selected. -->
+        <step-definition id="collection">
+            <heading></heading>
+            <processing-class>org.dspace.app.rest.submit.step.CollectionStep</processing-class>
+            <type>collection</type>
+            <scope visibility="hidden" visibilityOutside="hidden">submission</scope>
+        </step-definition>
+
+        <!-- The following set of DescribeStep <step-definition>s all point to forms (of the same name) which are
+             defined in submission-forms.xml -->
+        <step-definition id="traditionalpageone" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition id="traditionalpagetwo" mandatory="true">
+            <heading>submit.progressbar.describe.steptwo</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition id="publicationStep" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition id="personStep" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition id="projectStep" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition id="orgUnitStep" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition id="journalStep" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition id="journalVolumeStep" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition id="journalIssueStep" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <step-definition id="upload">
+            <heading>submit.progressbar.upload</heading>
+            <processing-class>org.dspace.app.rest.submit.step.UploadStep</processing-class>
+            <type>upload</type>
+        </step-definition>
+        <step-definition id="license">
+            <heading>submit.progressbar.license</heading>
+            <processing-class>org.dspace.app.rest.submit.step.LicenseStep</processing-class>
+            <type>license</type>
+            <scope visibilityOutside="read-only">submission</scope>
+        </step-definition>
+
+        <!-- This optional step may allow the user to select a Creative Commons license -->
+        <step-definition id="cclicense" mandatory="false">
+            <heading>submit.progressbar.CClicense</heading>
+            <processing-class>org.dspace.app.rest.submit.step.CCLicenseStep</processing-class>
+            <type>cclicense</type>
+        </step-definition>
+
+        <!-- This optional step may enrich the current submission using information extracted
+             from uploaded files or metadata.  -->
+        <!-- Please note that this step will be triggered only when a request is performed,
+             e.g. when a file is uploaded or the form is saved. The Angular UI also supports an
+             autosave feature based on a timer, or the input of specific metadata such as identifiers,
+             see the 'submission.autosave' settings in the 'environment.common.ts'.
+             See also 'config/spring/api/step-processing-listener.xml' for further server side configuration
+             -->
+        <step-definition id="extractionstep">
+            <heading>submit.progressbar.ExtractMetadataStep</heading>
+            <processing-class>org.dspace.app.rest.submit.step.ExtractMetadataStep</processing-class>
+            <type>extract</type>
+        </step-definition>
+
+        <!-- OpenAIRE submission steps/forms -->
+        <step-definition id="openAIREProjectForm" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition id="openAIREPersonForm" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition id="openAIREOrganizationForm" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition id="openAIREPublicationPageoneForm" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition id="openAIREPublicationPagetwoForm" mandatory="true">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <!-- This is the Sample/Fake Step which is used for testing only -->
+        <step-definition id="sample">
+            <heading>Sample</heading>
+            <processing-class>org.dspace.submit.step.SampleStep</processing-class>
+            <type>sample</type>
+        </step-definition>
+
+        <step-definition mandatory="true" id="tesispage1">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="tesispage2">
+            <heading>submit.progressbar.describe.steptwo</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <step-definition mandatory="true" id="articulos_revistaspage1">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="articulos_revistaspage2">
+            <heading>submit.progressbar.describe.steptwo</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <step-definition mandatory="true" id="articulos_revistas_historicaspage1">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="articulos_revistas_historicaspage2">
+            <heading>submit.progressbar.describe.steptwo</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <step-definition mandatory="true" id="doctrabajopage1">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="doctrabajopage2">
+            <heading>submit.progressbar.describe.steptwo</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <step-definition mandatory="true" id="eventospage1">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="eventospage2">
+            <heading>submit.progressbar.describe.steptwo</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <step-definition mandatory="true" id="librospage1">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="librospage2">
+            <heading>submit.progressbar.describe.steptwo</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <step-definition mandatory="true" id="palcpage1">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="palcpage2">
+            <heading>submit.progressbar.describe.steptwo</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <step-definition mandatory="true" id="cclinicospage1">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="cclinicospage2">
+            <heading>submit.progressbar.describe.steptwo</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <step-definition mandatory="true" id="documentospage1">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="documentospage2">
+            <heading>submit.progressbar.describe.steptwo</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <step-definition mandatory="true" id="documentos_institucionalespage1">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="documentos_institucionalespage2">
+            <heading>submit.progressbar.describe.steptwo</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <step-definition mandatory="true" id="podcastpage1">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="podcastpage2">
+            <heading>submit.progressbar.describe.steptwo</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <step-definition mandatory="true" id="form_ASKpage1">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="form_ASKpage2">
+            <heading>submit.progressbar.describe.steptwo</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <step-definition mandatory="true" id="form_GAMMApage1">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="form_GAMMApage2">
+            <heading>submit.progressbar.describe.steptwo</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <step-definition mandatory="true" id="historicospage1">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <step-definition mandatory="true" id="imagenespage1">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="imagenespage2">
+            <heading>submit.progressbar.describe.steptwo</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <step-definition mandatory="true" id="libros_historicospage1">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="libros_historicospage2">
+            <heading>submit.progressbar.describe.steptwo</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <step-definition mandatory="true" id="trabajos_academicospage1">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="trabajos_academicospage2">
+            <heading>submit.progressbar.describe.steptwo</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+
+        <step-definition mandatory="true" id="reapage1">
+            <heading>submit.progressbar.describe.stepone</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+        <step-definition mandatory="true" id="reapage2">
+            <heading>submit.progressbar.describe.steptwo</heading>
+            <processing-class>org.dspace.app.rest.submit.step.DescribeStep</processing-class>
+            <type>submission-form</type>
+        </step-definition>
+    </step-definitions>
+
+    <!-- The submission-definitions map lays out the detailed definition of -->
+    <!-- all the Item Submission Processes (and the ordering of their steps). -->
+    <!-- Each separate "submission-process" has a unique name as an attribute, -->
+    <!-- which matches one of the names in the process-map. One named -->
+    <!-- "submit-process" has the name "traditional"; as this name suggests, -->
+    <!-- it is the default item submission process, which gets used when -->
+    <!-- the specified collection has no correspondingly named submit-process. -->
+    <!-- -->
+    <!-- Each submit-process contains an ordered set of steps; each step -->
+    <!-- defines one "step" occurring during the process of submitting an -->
+    <!-- item. A step MUST be referenced by 'id' (it must -->
+    <!-- be defined in <step-definitions> above). -->
+    <!-- -->
+    <!-- -->
+    <submission-definitions>
+
+        <!--This "traditional" process defines the DEFAULT item submission process -->
+        <submission-process name="traditional">
+            <!--Uncommment to display the SAMPLE step as your first step -->
+            <!--<step id="sample"/> -->
+
+            <step id="collection"/>
+
+            <!--Step will be to Describe the item. -->
+            <step id="traditionalpageone"/>
+            <step id="traditionalpagetwo"/>
+
+            <!--Step will be to Upload the item -->
+            <step id="upload"/>
+            <!-- <step id="extractionstep"/> -->
+
+            <!-- Uncomment this step to allow the user to select a Creative Commons License -->
+            <!-- <step id="cclicense"/> -->
+
+            <!--Step will be to Sign off on the required DSpace License agreement -->
+            <step id="license"/>
+        </submission-process>
+
+        <!--
+        Submission Process for 'Publication' Entities.
+        These are not to be confused with default Items, as Publications may be linked with other Entities
+        (e.g. Person, JournalIssue, etc).
+        To enable: create a collection for Publications and add it to the <submission-map> tag linking to this process
+         -->
+        <submission-process name="Publication">
+            <step id="collection"/>
+            <!-- Publications use a custom first step, but share page 2 with "traditional" Item form -->
+            <step id="publicationStep"/>
+            <step id="traditionalpagetwo"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <!--
+        Submission Process for 'Person' Entities
+        To enable: create a collection for Persons and add it to the <submission-map> tag linking to this process
+         -->
+        <submission-process name="Person">
+            <step id="collection"/>
+            <step id="personStep"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <!--
+        Submission Process for 'Pproject' Entities
+        To enable: create a collection for Projects and add it to the <submission-map> tag linking to this process
+         -->
+        <submission-process name="Project">
+            <step id="collection"/>
+            <step id="projectStep"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <!--
+        Submission Process for 'OrgUnit' Entities
+        To enable: create a collection for OrgUnits and add it to the <submission-map> tag linking to this process
+         -->
+        <submission-process name="OrgUnit">
+            <step id="collection"/>
+            <step id="orgUnitStep"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <!--
+        Submission Process for 'Journal' Entities
+        To enable: create a collection for Journals and add it to the <submission-map> tag linking to this process
+         -->
+        <submission-process name="Journal">
+            <step id="collection"/>
+            <step id="journalStep"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <!--
+        Submission Process for 'JournalVolume' Entities
+        To enable: create a collection for JournalVolumes and add it to the <submission-map> tag linking to this process
+         -->
+        <submission-process name="JournalVolume">
+            <step id="collection"/>
+            <step id="journalVolumeStep"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <!--
+        Submission Process for 'JournalIssues' Entities
+        To enable: create a collection for JournalIssues and add it to the <submission-map> tag linking to this process
+         -->
+        <submission-process name="JournalIssue">
+            <step id="collection"/>
+            <step id="journalIssueStep"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <!-- OpenAIRE submission processes -->
+        <submission-process name="openAIREPublicationSubmission">
+            <step id="collection"/>
+
+            <!--Step will be to Describe the item. -->
+            <step id="openAIREPublicationPageoneForm"/>
+            <step id="openAIREPublicationPagetwoForm"/>
+
+            <!--Step will be to Upload the item -->
+            <!-- step id="upload-with-embargo"/-->
+            <step id="upload"/>
+
+            <!--Step will be to Sign off on the License -->
+            <step id="license"/>
+        </submission-process>
+        <submission-process name="openAIREPersonSubmission">
+            <step id="collection"/>
+            <step id="openAIREPersonForm"/>
+        </submission-process>
+        <submission-process name="openAIREProjectSubmission">
+            <step id="collection"/>
+            <step id="openAIREProjectForm"/>
+        </submission-process>
+        <submission-process name="openAIREOrganizationSubmission">
+            <step id="collection"/>
+            <step id="openAIREOrganizationForm"/>
+        </submission-process>
+
+        <submission-process name="tesis">
+            <step id="collection"/>
+            <step id="tesispage1"/>
+            <step id="tesispage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <submission-process name="articulos_revistas">
+            <step id="collection"/>
+            <step id="articulos_revistaspage1"/>
+            <step id="articulos_revistaspage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <submission-process name="articulos_revistas_historicas">
+            <step id="collection"/>
+            <step id="articulos_revistas_historicaspage1"/>
+            <step id="articulos_revistas_historicaspage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <submission-process name="doctrabajo">
+            <step id="collection"/>
+            <step id="doctrabajopage1"/>
+            <step id="doctrabajopage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <submission-process name="eventos">
+            <step id="collection"/>
+            <step id="eventospage1"/>
+            <step id="eventospage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <submission-process name="libros">
+            <step id="collection"/>
+            <step id="librospage1"/>
+            <step id="librospage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <submission-process name="palc">
+            <step id="collection"/>
+            <step id="palcpage1"/>
+            <step id="palcpage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <submission-process name="cclinicos">
+            <step id="collection"/>
+            <step id="cclinicospage1"/>
+            <step id="cclinicospage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <submission-process name="documentos">
+            <step id="collection"/>
+            <step id="documentospage1"/>
+            <step id="documentospage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <submission-process name="documentos_institucionales">
+            <step id="collection"/>
+            <step id="documentos_institucionalespage1"/>
+            <step id="documentos_institucionalespage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <submission-process name="podcast">
+            <step id="collection"/>
+            <step id="podcastpage1"/>
+            <step id="podcastpage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <submission-process name="form_ASK">
+            <step id="collection"/>
+            <step id="form_ASKpage1"/>
+            <step id="form_ASKpage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <submission-process name="form_GAMMA">
+            <step id="collection"/>
+            <step id="form_GAMMApage1"/>
+            <step id="form_GAMMApage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <submission-process name="historicos">
+            <step id="collection"/>
+            <step id="historicospage1"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <submission-process name="imagenes">
+            <step id="collection"/>
+            <step id="imagenespage1"/>
+            <step id="imagenespage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <submission-process name="libros_historicos">
+            <step id="collection"/>
+            <step id="libros_historicospage1"/>
+            <step id="libros_historicospage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <submission-process name="trabajos_academicos">
+            <step id="collection"/>
+            <step id="trabajos_academicospage1"/>
+            <step id="trabajos_academicospage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+
+        <submission-process name="rea">
+            <step id="collection"/>
+            <step id="reapage1"/>
+            <step id="reapage2"/>
+            <step id="upload"/>
+            <step id="license"/>
+        </submission-process>
+    </submission-definitions>
+
+</item-submission>

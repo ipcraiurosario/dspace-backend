@@ -1,0 +1,39 @@
+citation + '<a href="' + study.publicationUrl +'" target="_blank">'+ study.publicationUrl +'</a>, ' + study.publisher +', V'+ study.versionNumber
+
+
+
+
+Incluir el dataset en el panel de administración del OPS - OJS
+
+
+
+aditionalHeaderData
+
+curl -s X-Dataverse-key:d91a820c-4439-4aeb-9718-326017f3e28b http://10.194.194.26:8080/api/admin/datasetfield/controlledVocabulary/subject
+
+dia 2
+
+Sacaran versionones LTS de 3 a 5 años para el ojs 3.3 hasta el 3.7 es decir, cuando salga el 3.7 se debe actualizar para seguir con el LTS:
+
+3.3 LTS (recomiendan actualizarlo, segun Alec y Alperin, podemos actualizar directamente de la 3.2.1.1 a la 3.3 mas estable. Puede ser un proyecto de gestion para el 2023)
+3.4
+3.5
+3.6
+3.7 LTS (actualizar cuando salga)
+
+XML- Donde estamos?
+siguen buscando una solución.
+- Lens fue abandonado.
+- Los que hicieron lens crearon un nuevo editor: texture
+- Apostaron por texture y fundaron un consorcio para llevar adelante su desarrollo. eLife era parte del consorcio pero sus requisitos eran demasiados diferentes al reto. TEXTURE FUE ABANDONADO.
+- eLife hizo un fork, llamado Libero, apostaron por Libero.
+- Libero fue abandonado (nuevamente)
+
+Lo que si existe:
+1 Plugin de Lens, no tiene futuro pero está presente.
+2 Plugin de texture: funciona pero es limitado, no funciona con todos los XML como los de scielo y redalyc.
+3 Plugin de DOCX2JATS.
+4 Plugin de JATSParser: funciona pero no es super agil ni se ve tan bonito, genera HTML y PDF en base al JATS. No sabmeos si fucnioa con eml scielo y redalyc.
+
+Editor XML para OJS, oportunidad de desarrollo.
+en la fase de publication-> crear un nuevo side-tab -> jats XML -> que se muestre el documento en xml y se pueda editar.

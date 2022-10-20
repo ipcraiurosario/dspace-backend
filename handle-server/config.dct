@@ -1,0 +1,60 @@
+{
+  "hdl_http_config" = {
+    "bind_address" = "10.194.194.13"
+    "num_threads" = "15"
+    "bind_port" = "8000"
+    "log_accesses" = "no"
+  }
+
+  "server_type" = "server"
+  "hdl_udp_config" = {
+    "bind_address" = "10.194.194.13"
+    "num_threads" = "15"
+    "bind_port" = "2641"
+    "log_accesses" = "no"
+  }
+
+  "hdl_tcp_config" = {
+    "bind_address" = "10.194.194.13"
+    "num_threads" = "15"
+    "bind_port" = "2641"
+    "log_accesses" = "no"
+  }
+
+  "log_save_config" = {
+    "log_save_directory" = "logs"
+    "log_save_interval" = "Monthly"
+  }
+
+  "no_udp_resolution" = "no"
+  "interfaces" = (
+    "hdl_udp"
+    "hdl_tcp"
+    "hdl_http"
+  )
+
+  "server_config" = {
+"storage_type" = "CUSTOM"
+"storage_class" = "org.dspace.handle.HandlePlugin"
+"enable_txn_queue" = "no"
+
+    "server_admins" = (
+      "300:0.NA/10336"
+    )
+
+    "replication_admins" = (
+      "300:0.NA/10336"
+    )
+
+    "max_session_time" = "86400000"
+    "this_server_id" = "1"
+    "max_auth_time" = "60000"
+    "server_admin_full_access" = "yes"
+    "case_sensitive" = "no"
+    "auto_homed_prefixes" = (
+      "0.NA/10336"
+    )
+
+  }
+
+}

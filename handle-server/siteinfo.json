@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "protocolVersion": "2.11",
+  "serialNumber": 1,
+  "primarySite": true,
+  "multiPrimary": false,
+  "attributes": [
+    {
+      "name": "desc",
+      "value": "dspace-7-UR Handle Server"
+    }
+  ],
+  "servers": [
+    {
+      "serverId": 1,
+      "address": "10.194.194.13",
+      "publicKey": {
+        "format": "key",
+        "value": {
+          "kty": "RSA",
+          "n": "pFvFbvlzDErqaR_VSUSKyBUuLb1JLs4s6opUO9KnQqmhCIO8AiRfNz1R-eO__nUJbkEddwh6Fp72CcXPrTXb2b2OdJL5VU2BbVzxvRLNvkdjUSUX8WOmkSHbT0Q_YxL-8QafwA_fJ9SERfGvYRj_jMTtcnkHNM_qYP5XrvZV7ZZ6951w0pJeI88_1sxphp85ET45KbCoGiMIxp4fO3tq3e3b6aj3Htb5v_IkBHPAYaYNxqPN7pdoJZsfUzkqqniSuiIpL7ns9balBh8CDDOBQw7fXz6lQEOIfDaUdgQ3uJ2bijSBq-UyZTmRKujpR0-Jk5eeOJR1Wr3LqMn_osvZWQ",
+          "e": "AQAB"
+        }
+      },
+      "interfaces": [
+        {
+          "query": true,
+          "admin": true,
+          "protocol": "TCP",
+          "port": 2641
+        },
+        {
+          "query": true,
+          "admin": false,
+          "protocol": "UDP",
+          "port": 2641
+        },
+        {
+          "query": true,
+          "admin": true,
+          "protocol": "HTTP",
+          "port": 8000
+        }
+      ]
+    }
+  ]
+}

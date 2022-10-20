@@ -1,0 +1,3 @@
+2022-07-08 08:25:37.175 INFO metadata-deletion - 4 @ The script has started
+2022-07-08 08:25:37.236 INFO metadata-deletion - 4 @ Deleting the field 'dspace.agreements.end-user' from all objects
+2022-07-08 08:25:37.823 INFO metadata-deletion - 4 @ The script has completed

@@ -1,0 +1,74 @@
+
+Database URL: jdbc:postgresql://localhost:5432/edocurdbtest
+Migrating database to latest version... (Check dspace logs for details)
+Done.
+
+Database Type: postgres
+Database URL: jdbc:postgresql://localhost:5432/edocurdbtest
+Database Schema: public
+Database Username: repositoryur
+Database Software: PostgreSQL version 11.16
+Database Driver: PostgreSQL JDBC Driver version 42.3.3
+PostgreSQL 'pgcrypto' extension installed/up-to-date? true (version=1.3)
+FlywayDB Version: 8.4.4
+
++-----------+----------------+------------------------------------------------------+----------+---------------------+----------------+
+| Category  | Version        | Description                                          | Type     | Installed On        | State          |
++-----------+----------------+------------------------------------------------------+----------+---------------------+----------------+
+| Versioned | 1.1            | Initial DSpace 1.1 database schema                   | SQL      |                     | Below Baseline |
+| Versioned | 1.2            | Upgrade to DSpace 1.2 schema                         | SQL      |                     | Below Baseline |
+| Versioned | 1.3            | Upgrade to DSpace 1.3 schema                         | SQL      |                     | Below Baseline |
+| Versioned | 1.3.9          | Drop constraint for DSpace 1 4 schema                | JDBC     |                     | Below Baseline |
+| Versioned | 1.4            | Upgrade to DSpace 1.4 schema                         | SQL      |                     | Below Baseline |
+| Versioned | 1.5            | Upgrade to DSpace 1.5 schema                         | SQL      |                     | Below Baseline |
+| Versioned | 1.5.9          | Drop constraint for DSpace 1 6 schema                | JDBC     |                     | Below Baseline |
+| Versioned | 1.6            | Upgrade to DSpace 1.6 schema                         | SQL      |                     | Below Baseline |
+| Versioned | 1.7            | Upgrade to DSpace 1.7 schema                         | SQL      |                     | Below Baseline |
+| Versioned | 1.8            | Upgrade to DSpace 1.8 schema                         | SQL      |                     | Below Baseline |
+| Versioned | 3.0            | Upgrade to DSpace 3.x schema                         | SQL      |                     | Below Baseline |
+|           | 4.0            | Initializing from DSpace 4.0 database schema         | BASELINE | 2017-03-23 17:45:08 | Baseline       |
+| Versioned | 4.9.2015.10.26 | DS-2818 registry update                              | SQL      | 2017-03-23 17:45:08 | Success        |
+| Versioned | 5.0.2014.08.08 | DS-1945 Helpdesk Request a Copy                      | SQL      | 2017-03-23 17:45:08 | Success        |
+| Versioned | 5.0.2014.09.25 | DS 1582 Metadata For All Objects drop constraint     | JDBC     | 2017-03-23 17:45:08 | Success        |
+| Versioned | 5.0.2014.09.26 | DS-1582 Metadata For All Objects                     | SQL      | 2017-03-23 17:45:08 | Success        |
+| Versioned | 5.6.2016.08.23 | DS-3097                                              | SQL      | 2017-03-23 17:45:36 | Success        |
+| Versioned | 6.0.2015.03.06 | DS 2701 Dso Uuid Migration                           | JDBC     | 2017-03-23 17:45:36 | Success        |
+| Versioned | 6.0.2015.03.07 | DS-2701 Hibernate migration                          | SQL      | 2017-03-23 17:45:36 | Success        |
+| Versioned | 6.0.2015.08.31 | DS 2701 Hibernate Workflow Migration                 | JDBC     | 2017-03-23 17:46:58 | Success        |
+| Versioned | 6.0.2016.01.03 | DS-3024                                              | SQL      | 2017-03-23 17:46:58 | Success        |
+| Versioned | 6.0.2016.01.26 | DS 2188 Remove DBMS Browse Tables                    | JDBC     | 2017-03-23 17:46:59 | Success        |
+| Versioned | 6.0.2016.02.25 | DS-3004-slow-searching-as-admin                      | SQL      | 2017-03-23 17:46:59 | Success        |
+| Versioned | 6.0.2016.04.01 | DS-1955 Increase embargo reason                      | SQL      | 2017-03-23 17:46:59 | Success        |
+| Versioned | 6.0.2016.04.04 | DS-3086-OAI-Performance-fix                          | SQL      | 2017-03-23 17:46:59 | Success        |
+| Versioned | 6.0.2016.04.14 | DS-3125-fix-bundle-bitstream-delete-rights           | SQL      | 2017-03-23 17:47:02 | Success        |
+| Versioned | 6.0.2016.05.10 | DS-3168-fix-requestitem item id column               | SQL      | 2017-03-23 17:47:04 | Success        |
+| Versioned | 6.0.2016.07.21 | DS-2775                                              | SQL      | 2017-03-23 17:47:07 | Success        |
+| Versioned | 6.0.2016.07.26 | DS-3277 fix handle assignment                        | SQL      | 2017-03-23 17:47:07 | Success        |
+| Versioned | 6.0.2016.08.23 | DS-3097                                              | SQL      | 2017-03-23 17:47:07 | Success        |
+| Versioned | 6.1.2017.01.03 | DS 3431 Add Policies for BasicWorkflow               | JDBC     | 2019-09-11 19:10:25 | Success        |
+| Versioned | 7.0.2017.10.12 | DS-3542-stateless-sessions                           | SQL      | 2022-07-11 13:44:54 | Success        |
+| Versioned | 7.0.2018.04.03 | Upgrade Workflow Policy                              | JDBC     | 2022-07-11 13:44:54 | Success        |
+| Versioned | 7.0.2018.04.16 | dspace-entities                                      | SQL      | 2022-07-11 13:44:54 | Success        |
+| Versioned | 7.0.2018.06.07 | DS-3851-permission                                   | SQL      | 2022-07-11 13:44:54 | Success        |
+| Versioned | 7.0.2019.05.02 | DS-4239-workflow-xml-migration                       | SQL      | 2022-07-11 13:44:54 | Success        |
+| Versioned | 7.0.2019.06.14 | scripts-and-process                                  | SQL      | 2022-07-11 13:44:54 | Success        |
+| Versioned | 7.0.2019.07.31 | Retrieval of name variant                            | SQL      | 2022-07-11 13:44:54 | Success        |
+| Versioned | 7.0.2019.11.13 | relationship type copy left right                    | SQL      | 2022-07-11 13:44:54 | Success        |
+| Versioned | 7.0.2020.01.08 | DS-626-statistics-tracker                            | SQL      | 2022-07-11 13:44:54 | Success        |
+| Versioned | 7.0.2020.10.31 | CollectionCommunity Metadata Handle                  | JDBC     | 2022-07-11 13:44:54 | Success        |
+| Versioned | 7.0.2021.01.22 | Remove basic workflow                                | SQL      | 2022-07-11 13:44:55 | Success        |
+| Versioned | 7.0.2021.02.08 | tilted rels                                          | SQL      | 2022-07-11 13:44:55 | Success        |
+| Versioned | 7.0.2021.03.18 | Move entity type to dspace schema                    | SQL      | 2022-07-11 13:44:55 | Success        |
+| Versioned | 7.0.2021.09.24 | Move entity type from item template to collection    | SQL      | 2022-07-11 13:44:55 | Success        |
+| Versioned | 7.0.2021.10.04 | alter collection table drop workflow stem columns    | SQL      | 2022-07-11 13:44:55 | Success        |
+| Versioned | 7.1.2021.10.18 | Fix MDV place after migrating from DSpace 5          | SQL      | 2022-07-11 13:44:55 | Success        |
+| Versioned | 7.3.2022.04.29 | orcid queue and history                              | SQL      | 2022-07-11 13:45:25 | Success        |
+| Versioned | 7.3.2022.05.16 | Orcid token table                                    | SQL      | 2022-07-11 13:45:25 | Success        |
+| Versioned | 7.3.2022.06.16 | process to group                                     | SQL      | 2022-07-11 13:45:25 | Success        |
+| Versioned | 7.3.2022.06.20 | add last version status column to relationship table | SQL      | 2022-07-11 13:45:25 | Success        |
+| Versioned | 5.0.2014.11.04 | Enable XMLWorkflow Migration                         | JDBC     |                     | Ignored        |
+| Versioned | 5.7.2017.04.11 | DS-3563 Index metadatavalue resource type id column  | SQL      |                     | Ignored        |
+| Versioned | 5.7.2017.05.05 | DS 3431 Add Policies for BasicWorkflow               | JDBC     |                     | Ignored        |
+| Versioned | 6.0.2015.09.01 | DS 2701 Enable XMLWorkflow Migration                 | JDBC     |                     | Ignored        |
++-----------+----------------+------------------------------------------------------+----------+---------------------+----------------+
+

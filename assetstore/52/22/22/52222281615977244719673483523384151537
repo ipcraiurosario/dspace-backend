@@ -1,0 +1,10 @@
+2022-07-08 08:24:08.128 INFO metadata-deletion - 3 @ The script has started
+2022-07-08 08:24:08.180 ERROR metadata-deletion - 3 @ null
+2022-07-08 08:24:08.232 ERROR metadata-deletion - 3 @ java.lang.IllegalArgumentException: No metadata field found with name 455
+	at org.dspace.app.bulkedit.MetadataDeletion.performMetadataValuesDeletion(MetadataDeletion.java:76)
+	at org.dspace.app.bulkedit.MetadataDeletion.internalRun(MetadataDeletion.java:55)
+	at org.dspace.scripts.DSpaceRunnable.run(DSpaceRunnable.java:104)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
